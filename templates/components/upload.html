@@ -1,0 +1,114 @@
+<section id="detect" class="upload-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Deteksi Luka Anda</h2>
+            <p class="section-description">
+                Upload gambar luka untuk mendapatkan analisis AI dalam hitungan detik
+            </p>
+        </div>
+
+        <div class="upload-container">
+            <div class="upload-area" id="uploadArea">
+                <input type="file" id="fileInput" accept="image/*" hidden>
+                <div class="upload-content" id="uploadContent">
+                    <div class="upload-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <h3>Drag & Drop gambar di sini</h3>
+                    <p>atau</p>
+                    <button class="btn btn-primary" onclick="document.getElementById('fileInput').click()">
+                        <i class="fas fa-folder-open"></i> Pilih Gambar
+                    </button>
+                    <p class="upload-note">
+                        <i class="fas fa-info-circle"></i> 
+                        Format: JPG, PNG, JPEG (Max 16MB)
+                    </p>
+                </div>
+                <div class="preview-container" id="previewContainer" style="display: none;">
+                    <img id="previewImage" src="" alt="Preview">
+                    <button class="btn-remove" onclick="removeImage()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+
+            <button class="btn btn-detect" id="detectBtn" style="display: none;">
+                <i class="fas fa-search"></i> Mulai Deteksi
+            </button>
+
+            <div class="loading" id="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Menganalisis gambar...</p>
+            </div>
+
+            <div class="results-container" id="resultsContainer" style="display: none;">
+                <div class="results-header">
+                    <h3><i class="fas fa-check-circle"></i> Hasil Deteksi</h3>
+                </div>
+                <div class="results-content">
+                    <div class="result-image">
+                        <img id="resultImage" src="" alt="Result">
+                    </div>
+                    <div class="result-info">
+                        <div class="info-card">
+                            <div class="info-label">Total Luka Terdeteksi</div>
+                            <div class="info-value" id="totalWounds">-</div>
+                        </div>
+                        <div class="detections-list" id="detectionsList"></div>
+                        <button class="btn btn-secondary" onclick="resetDetection()">
+                            <i class="fas fa-redo"></i> Deteksi Ulang
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal Detail Luka -->
+<div id="woundModal" class="wound-modal">
+  <div class="wound-modal-content">
+    <button class="modal-close" onclick="closeModal()">
+      <i class="fas fa-times"></i>
+    </button>
+
+    <h2 id="modalWoundName" class="modal-title">
+      <i class="fas fa-band-aid"></i> <span></span>
+    </h2>
+
+    <div class="modal-section">
+        <h3><i class="fas fa-stethoscope"></i> Ciri-Ciri Luka</h3>
+        <ul id="modalSymptoms" class="modal-list"></ul>
+    </div>
+
+    <div class="modal-section">
+        <h4><i class="fas fa-first-aid"></i> Penanganan Luka</h4>
+        <table class="treatment-table" id="modalTreatment">
+           
+        </table>
+    </div>
+
+    <div class="modal-info">
+      <h3><i class="fas fa-stethoscope"></i> Kapan Harus Mencari Pertolongan Medis?</h3>
+      <ul id="modal-penanganan" class="modal-list"></ul>
+    </div>
+
+    <div class="modal-info">
+      <p><strong>Waktu Penyembuhan:</strong> <br><span id="modalHealingTime">
+        <ul id="modalPenyembuhan" class="modal-list"></ul>
+      </span></p>
+    </div>
+
+
+    <div class="modal-section">
+      <h3><i class="fas fa-ban"></i> Hal yang Harus Dihindari</h3>
+      <ul id="modalAvoid" class="modal-list"></ul>
+    </div>
+
+    <div class="modal-section">
+      <h3><i class="fas fa-ceklist"></i> Tips</h3>
+      <p id="modalTips" class="modal-list"></p>
+    </div>
+    
+  </div>
+</div>

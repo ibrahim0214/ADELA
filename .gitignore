@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+**/venv/
+
+# dataset
+dataset/
+
+# folder
+static/uploads
+static/results

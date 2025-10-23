@@ -1,0 +1,212 @@
+{
+  "luka_abrasi": {
+    "name": "Lecet (abrasi) ",
+    "penanganan": [
+        {
+            "step": "Cuci tangan terlebih dulu 🧼",
+            "penjelasan": "Supaya tangan bersih dan tidak membawa kuman ke luka. Gunakan sabun dan air mengalir."
+        },
+        {
+            "step": "Hentikan perdarahan (jika ada) 🩸",
+            "penjelasan": "Tekan perlahan pakai kain bersih atau kasa steril sampai perdarahan berhenti."
+        },
+        {
+            "step": "Bersihkan luka dengan air mengalir 🚿",
+            "penjelasan": "Siram luka dengan air bersih. Jangan gosok luka, cukup siram untuk membersihkan debu/kotoran. Jika ada kotoran yang menempel, gunakan pinset steril."
+        },
+        {
+            "step": "Gunakan antiseptik ringan (opsional) 💧",
+            "penjelasan": "Setelah luka bersih, bisa pakai antiseptik seperti povidone iodine atau cairan NaCl (larutan garam steril). Jangan gunakan alkohol atau obat merah karena bisa perih dan merusak jaringan."
+        },
+        {
+            "step": "Keringkan luka dan biarkan terbuka (jika memungkinkan) 🌬️",
+            "penjelasan": "Luka lecet ringan bisa dibiarkan terbuka agar cepat kering, selama tidak terkena kotoran atau gesekan."
+        },
+        {
+            "step": "Gunakan plester atau kasa steril jika perlu 🩹",
+            "penjelasan": "Jika luka berada di area yang mudah tergesek (misalnya lutut, siku), tutup dengan kasa atau plester luka. Ganti perban tiap hari atau saat kotor."
+        },
+        {
+            "step": "Oleskan salep antibiotik ringan 💊",
+            "penjelasan": "Bisa gunakan salep seperti Neomycin atau Bacitracin (jika tersedia) untuk mencegah infeksi."
+        },
+        {
+            "step": "Pantau perkembangan luka 👀",
+            "penjelasan": "Jika luka jadi bengkak, bernanah, kemerahan meluas, atau terasa makin sakit — bisa jadi tanda infeksi. Segera periksa ke dokter."
+        }
+    ],
+    "waktu_penyembuhan": [
+        "Lecet ringan: 3–7 hari",
+        "Lecet lebih dalam: bisa sampai 2 minggu",
+        "Perlu lebih lama jika ada infeksi atau perawatan tidak bersih"
+    ],
+    "hindari": [
+      "Mengupas keropeng luka sebelum waktunya",
+      "Menggunakan alkohol, bensol, atau obat merah secara langsung",
+      "Membiarkan luka kotor atau tidak ditutup saat perlu",
+      "Menyentuh luka tanpa mencuci tangan"
+    ],
+    "tips": [
+        {
+            "penanganan": "Penanganan dengan Gel Lidah Buaya:",
+            "penjelasan": "Gel lidah buaya berfungsi sebagai pelembap dan pelindung yang mencegah luka lecet mengering dan berkerak, sehingga mendukung proses epitelisasi (penutupan kulit) lebih cepat. Sifat antibakteri ringannya juga membantu pencegahan infeksi."
+        }
+    ]
+  },
+  "luka_sedang": {
+    "name": "Luka terbuka sedang  / luka gores / robek ringan",
+    "ciri_ciri": [
+        "Tepi luka sobek/runcing, tidak rata",
+        "Kedalaman melebihi epidermis, mungkin sampai ke dermis",
+        "Pendarahan lebih jelas dibandingkan lecet, tapi tidak sangat jelas",
+        "Bisa terasa nyeri, rasa terbakar, pembengkakan di sekitar luka",
+        "Terasa lebih lembab/ada eksudat (cairan luka) dibandingkan luka superfisial"
+    ],
+    "penanganan": [
+        {
+            "step": "Cuci tangan",
+            "penjelasan": "Supaya tangan bersih agar tidak memasukkan kuman ke luka. Gunakan sabun dan air bersih."
+        },
+        {
+            "step": "Berhentikan perdarahan",
+            "penjelasan": "Tekan dengan kain bersih atau kasa steril selama beberapa menit. Angkat bagian tubuh yang luka agar lebih tinggi dari jantung jika memungkinkan."
+        },
+        {
+            "step": "Bersihkan luka",
+            "penjelasan": "Gunakan air mengalir atau larutan garam steril untuk membilas kotoran. Jika ada benda asing (misalnya pecahan kaca), jangan dipaksakan — jika susah dikeluarkan, dibawa ke tenaga medis. Gunakan antiseptik ringan di tepi luka jika diperlukan."
+        },
+        {
+            "step": "Evaluasi apakah perlu dijahit",
+            "penjelasan": "Jika robekan cukup panjang, tepinya renggang, dalam, atau ada risiko jaringan dalam terpengaruh, mungkin perlu jahitan/tindakan medis agar sembuh dengan baik dan mengurangi bekas luka."
+        },
+        {
+            "step": "Oleskan salep antibiotik",
+            "penjelasan": "Untuk mencegah infeksi, setelah luka bersih dan kering sedikit, bisa dioleskan salep antibiotik topikal."
+        },
+        {
+            "step": "Tutupi dengan kasa / perban steril",
+            "penjelasan": "Tutup agar terlindungi dari debu, gesekan, dan bakteri. Ganti perban secara berkala (setiap hari atau jika basah/kotor)."
+        },
+        {
+            "step": "Jaga kelembapan luka",
+            "penjelasan": "Luka yang terlalu kering atau terlalu basah bisa lambat sembuh. Gunakan perban yang pas agar tidak terlalu rapat tapi tetap melindungi."
+        },
+        {
+            "step": "Monitor gejala infeksi",
+            "penjelasan": "Perhatikan jika ada bengkak, kemerahan yang makin luas, keluar cairan nanah, bau tidak sedap, nyeri meningkat, demam — ini tanda infeksi, perlu pemeriksaan medis."
+        }
+    ],
+    "tips": [
+        {
+            "penanganan": "Penanganan dengan Gel Lidah Buaya:",
+            "penjelasan": "Sifat anti-inflamasi dan hemostatik ringan lidah buaya membantu mengontrol peradangan. Gel menjaga kelembapan yang diperlukan luka untuk regenerasi sel, serta mempercepat pembentukan kolagen pada fase proliferasi."
+        }
+    ]
+  },
+  "luka_terbuka_dalam": {
+    "name": "Luka terbuka dalam/besar",
+    "ciri_ciri": [
+        "Ukuran panjang/lebar yang signifikan (lebih dari beberapa sentimeter)",
+        "Kedalaman mencapai dermis agak dalam, bisa sampai ke jaringan lemak, otot",
+        "Tepi luka yang tebal atau renggang",
+        "Pendarahan cukup banyak, bisa sulit berhenti dengan tekanan ringan",
+        "Ada potensi kerusakan saraf atau pembuluh darah besar",
+        "Risiko infeksi lebih tinggi"
+    ],
+    "penanganan": [
+      {
+        "step": "Tenangkan korban & cuci tangan",
+        "penjelasan": "Pastikan tangan bersih menggunakan sabun & air, atau menggunakan sarung tangan steril kalau ada."
+      },
+      {
+        "step": "Hentikan perdarahan secepat mungkin",
+        "penjelasan": "Tekan bagian luka menggunakan kain bersih atau kasa steril. Jika memungkinkan, angkat anggota tubuh yang luka agar di atas jantung untuk mengurangi aliran darah. Bila perdarahan sangat banyak dan tidak berhenti setelah beberapa menit tekanan, butuh bantuan medis darurat."
+      },
+      {
+        "step": "Cek kondisi benda asing & kotoran",
+        "penjelasan": "Jika ada serpihan kaca, batu, atau benda asing lain, jangan dihapus sendiri kalau dalam atau menempel kuat — bisa pindai ke rumah sakit. Jika benda asing kecil dan mudah dijangkau, gunakan pinset steril setelah disterilisasi, tapi hati hati agar tidak mendorong benda lebih dalam."
+      },
+      {
+        "step": "Irigasi dengan air bersih",
+        "penjelasan": "Siram luka dengan air steril atau air bersih yang mengalir untuk keluarkan kotoran. Hindari penggunaan bahan yang bisa merusak jaringan, seperti alkohol kuat, hidrogen peroksida langsung ke dasar luka."
+      },
+      {
+        "step": "Gunakan antiseptik / salep antibiotik",
+        "penjelasan": "Setelah bersih & sedikit kering, oleskan antiseptik atau salep antibiotik topikal untuk mencegah infeksi."
+      },
+      {
+        "step": "Penutupan luka",
+        "penjelasan": "Tutup dengan perban steril atau kasa yang cukup besar dan menyerap. Untuk luka besar dan tepinya renggang, kemungkinan perlu jahitan (tindakan medis). Pastikan perban tidak terlalu ketat, tapi cukup menutup dan melindungi dari debu serta getaran/gesekan."
+      },
+      {
+        "step": "Pemeliharaan & penggantian perban",
+        "penjelasan": "Ganti perban setiap hari atau jika sudah basah/tercemar kotoran. Perhatikan kebersihan area sekitar luka."
+      },
+      {
+        "step": "Pengawasan tanda infeksi",
+        "penjelasan": "Tanda yang harus diwaspadai: Pembengkakan yang meluas, Rasa nyeri yang makin kuat, Kemerahan yang melebar sekitar luka, Keluar cairan nanah / bau tidak sedap, Demam"
+      },
+      {
+        "step": "Vaksinasi Tetanus",
+        "penjelasan": "Bila luka disebabkan benda kotor, atau sudah lama vaksin tetanus terakhir (≥10 tahun atau kondisi sesuai petunjuk medis), per konsultasi dengan tenaga medis untuk booster tetanus jika diperlukan."
+      },
+      {
+        "step": "Mencari pertolongan medis",
+        "penjelasan": "Luka besar hampir selalu butuh evaluasi profesional: apakah perlu dijahit, tindakan operasi jika ada kerusakan jaringan dalam, penanganan nyeri, dan pemantauan fase penyembuhan."
+      }
+    ],
+    "tips": [
+        {
+            "penanganan": "Penanganan dengan Gel Lidah Buaya:",
+            "penjelasan": "Pada luka dalam, gel lidah buaya digunakan setelah pembersihan dengan antiseptik (misalnya larutan saline atau povidone-iodine). Aloe vera berfungsi sebagai dressing sekunder, menjaga kelembapan luka (moist wound healing) dan memberikan efek menenangkan. Namun, tidak disarankan digunakan tanpa pengawasan medis karena risiko infeksi pada luka yang dalam masih tinggi. Gel hanya bersifat adjuvan (pendukung) dalam terapi penyembuhan."
+        }
+    ]
+  },
+  "luka_bakar": {
+    "name": "Luka bakar ringan (derajad 1)",
+    "ciri_ciri": [
+        "Kerusakan pada lapisan epidermis (kulit bagian luar): Hanya mengenai lapisan kulit paling luar tanpa merusak lapisan dalam.",
+        "Kulit tampak merah dan kering: Tidak ada lepuhan atau melepuh.",
+        "Rasa nyeri ringan hingga sedang: Timbul rasa perih atau nyeri saat disentuh.",
+        "Tidak ada perubahan warna kulit permanen: Biasanya tidak meninggalkan bekas setelah sembuh."
+    ],
+    "penanganan": [
+      {
+        "step": "Hentikan sumber panas",
+        "penjelasan": "Segera jauhkan diri dari sumber panas penyebab luka."
+      },
+      {
+        "step": "Alirkan air dingin",
+        "penjelasan": "Sirami area luka dengan air mengalir yang dingin (bukan es) selama 10–20 menit untuk mengurangi rasa sakit dan mendinginkan kulit."
+      },
+      {
+        "step": "Jaga kebersihan luka",
+        "penjelasan": "Cuci luka dengan sabun ringan dan air bersih. Hindari menggosok area luka."
+      },
+      {
+        "step": "Gunakan salep atau krim",
+        "penjelasan": "Oleskan salep antibiotik atau krim pelembap yang direkomendasikan oleh tenaga medis untuk mencegah infeksi dan membantu penyembuhan."
+      },
+      {
+        "step": "Lindungi luka",
+        "penjelasan": "Tutup luka dengan perban steril atau kain bersih untuk melindungi dari kotoran dan gesekan."
+      },
+      {
+        "step": "Hindari paparan sinar matahari langsung",
+        "penjelasan": "Jangan biarkan area luka terpapar sinar matahari langsung untuk mencegah iritasi lebih lanjut."
+      }
+    ],
+    "pencarian_medis": [
+        "Luka bakar melibatkan area wajah, tangan, kaki, atau alat kelamin.",
+        "Luka bakar terjadi pada anak-anak, lansia, atau individu dengan kondisi medis tertentu.",
+        "Luka bakar tidak menunjukkan tanda-tanda perbaikan setelah beberapa hari.",
+        "Timbul gejala infeksi seperti nanah, demam, atau pembengkakan yang memburuk."
+    ],
+    "tips": [
+        {
+            "penanganan": "Penanganan dengan Gel Lidah Buaya:",
+            "penjelasan": "Ini adalah indikasi paling umum dari Aloe vera. Gel memberikan efek pendinginan (soothing effect) yang menurunkan suhu jaringan dan rasa perih. Senyawa acemannan dan glukomanan mempercepat regenerasi epitel, sementara lupeol, sterol, dan magnesium laktat menekan reaksi inflamasi. Beberapa studi klinis menunjukkan gel aloe vera mempercepat penyembuhan luka bakar derajat I–II dibandingkan basis salep konvensional. Namun, lepuhan besar tidak boleh dipecahkan, dan jika terdapat tanda infeksi, harus segera ditangani oleh tenaga medis."
+        }
+    ]
+  }
+}
